@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E20F38DF-265F-4AE6-8917-EF979F256170}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Javier Uriel Martinez Santiago" ID="{E20F38DF-265F-4AE6-8917-EF979F256170}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Uriel Martinez" ID="{A55F8831-C3E1-48D3-A4DB-D28380B557C9}" ShortID="585255852">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B095AA85-54E9-45B3-A032-C08F48F68334}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5A514F9B-D2D9-43D9-BD5A-BF0D766AFCEB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GameOver" ID="{48BEA540-945A-4D47-86E0-D112A1B305E6}">
+							<Language>SFX</Language>
+							<AudioFile>GameOver.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="513237965"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="GameOver" ID="{48BEA540-945A-4D47-86E0-D112A1B305E6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
